@@ -27,46 +27,40 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>GymkhannaElections</title>     
+        <title>GymkhannaElections</title>
         <link href="CSS/welcome_min.css" rel="stylesheet" type="text/css"/>
+        <!-- Materialize.css stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
     </head>
-    <body>       
-        <div id="iitph">
-            <img  src="images/header.png"/>
-        </div>
-        <nav class="navbar">
-            <nav class="navbar" >                    
-                <ul class="topmenu"> 
-                    <?php
-                    $keywords = preg_split("[\/]", $_SERVER['SCRIPT_NAME']);
-                    $key = $keywords[count($keywords) - 1];
-                    ?>                    
-                    <li>ashasa</li>
-                    <li><a href="index.php" title="Home" class="<?php echo ($key == "index.php") ? "current" : "diff"; ?>">Home</a></li>
-                    <li><a>|</a></li>
-                    <li><a href="//www.iitp.ac.in" title="IITP Home"class="diff">IITP Home</a></li>
-                    <li><a>|</a></li>
-                    <li><a href="//www.iitp.ac.in/gymkhana/index.html" title="IITP Gymkhana"class="diff">IITP Gymkhana</a></li>
-                    <li><a>|</a></li>
-                    <li><a href="contact.php" title="contact us"class="<?php echo ($key == "contact.php") ? "current" : "diff"; ?>">Contact Us</a></li>
-                    <li><a>|</a></li>
-                    <li><a  title="Login"class="<?php echo ($key == "logs.php") ? "current" : "diff"; ?>">Login</a>
-                        <ul class="submenu">
-                            <li><a href="logs.php" title="Voters">Voters</a></li>
-                        </ul>
-                    </li>
-                    <li><a>|</a></li>
-                    <li><a title="Sign Up"class="<?php echo ($key == "signs.php") ? "current" : "diff"; ?>">Sign Up</a>
-                        <ul class="submenu">
-                            <li><a href="signs.php" title="Voters">Voters</a></li>
-                        </ul>
-                    </li> 
-                    <li><a title="<?php echo (logged_in()) ? "Log Out" : ""; ?>" class="logout" href="logout.php"><?php
-                            echo (logged_in()) ? "Log Out" : "";
-                            echo (logged_in_admin()) ? "Log Out" : "";
-                            ?></a></li>
+    <body>
+      <nav>
+        <div class="nav-wrapper blue">
+          <a href="#" class="brand-logo"><img  src="images/header.png"/></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <?php
+                $keywords = preg_split("[\/]", $_SERVER['SCRIPT_NAME']);
+                $key = $keywords[count($keywords) - 1];
+              ?>
+              <li><a href="index.php" title="Home" class="<?php echo ($key == "index.php") ? "current" : "diff"; ?>">Home</a></li>
+              <li><a href="//www.iitp.ac.in" title="IITP Home"class="diff">IITP Home</a></li>
+              <li><a href="//www.iitp.ac.in/gymkhana/index.html" title="IITP Gymkhana"class="diff">IITP Gymkhana</a></li>
+              <li><a href="contact.php" title="contact us"class="<?php echo ($key == "contact.php") ? "current" : "diff"; ?>">Contact Us</a></li>
+              <li><a  title="Login"class="<?php echo ($key == "logs.php") ? "current" : "diff"; ?>">Login</a>
+                <ul class="submenu">
+                  <li><a href="logs.php" title="Voters">Voters</a></li>
                 </ul>
-            </nav>
-        </nav>            
-    </div> 
+                </li>
+                <li><a title="Sign Up" class="<?php echo ($key == "signs.php") ? "current" : "diff"; ?>">Sign Up</a>
+                <ul class="submenu">
+                  <li><a href="signs.php" title="Voters">Voters</a></li>
+                </ul>
+                </li>
+                <li><a title="<?php echo (logged_in()) ? "Log Out" : ""; ?>" class="logout" href="logout.php"><?php
+                         echo (logged_in()) ? "Log Out" : "";
+                         echo (logged_in_admin()) ? "Log Out" : "";
+                         ?></a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>
