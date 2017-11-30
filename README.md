@@ -40,6 +40,8 @@ Admin Page1 | Admin Page2 | Admin Page3
 :-:|:-:|:-:
 ![admin page](https://cloud.githubusercontent.com/assets/13851773/21573032/2f119b98-cf06-11e6-9198-170ad6aba668.png) | ![admin page1](https://cloud.githubusercontent.com/assets/13851773/21573036/2f13528a-cf06-11e6-814c-c7c1689945e3.png) | ![admin page2](https://cloud.githubusercontent.com/assets/13851773/21573037/2f13e18c-cf06-11e6-8429-c78a97a3ba41.png)
 
+Click [HERE](https://goo.gl/UuYX7s) to see the schema in pdf format. 
+
 ## Project License
 ```
 MIT License
