@@ -22,15 +22,14 @@ candidate | user | data
 :-:|:-:|:-:
 ![candidate_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573035/2f132698-cf06-11e6-89a6-25c462fb7a0a.jpg) |  ![user_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573033/2f11f994-cf06-11e6-9db1-6745ee423360.jpg) | ![data_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573034/2f1299da-cf06-11e6-8945-9d096ca409da.jpg)
 
+## Database Schema
+Schema can be found at /migrations/schema.sql 
+
 ## User Interface Mocks
 
 Home Page | Contact Us Page
 :-:|:-:
 ![home page](https://cloud.githubusercontent.com/assets/13851773/21572951/485b950a-cf05-11e6-93a7-5e79851a8a11.jpg) | ![contact us page](https://cloud.githubusercontent.com/assets/13851773/21572953/4a494182-cf05-11e6-84ea-75c8900726ee.jpg)
-
-## Database Schema
-
- Schema can be found at E-voting-portal/migrations/schema.sql 
 
 Login Page | Sign up Page
 :-:|:-:
