@@ -10,7 +10,7 @@ Hence, this idea came to me to develop a system, which can be easily accessible 
 outside the campus using a smart-phone or a computer device.
 This will simplify our life a lot saving our time and our effort.
 
-## Features 
+## Features
 - Multiple Administrators.
 - Certified Results.
 - Branded Voting Websites.
@@ -20,13 +20,17 @@ This will simplify our life a lot saving our time and our effort.
 ## Database
 candidate | user | data
 :-:|:-:|:-:
-![candidate_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573035/2f132698-cf06-11e6-89a6-25c462fb7a0a.jpg) |  ![user_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573033/2f11f994-cf06-11e6-9db1-6745ee423360.jpg) | ![data_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573034/2f1299da-cf06-11e6-8945-9d096ca409da.jpg) 
+![candidate_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573035/2f132698-cf06-11e6-89a6-25c462fb7a0a.jpg) |  ![user_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573033/2f11f994-cf06-11e6-9db1-6745ee423360.jpg) | ![data_phpmyadmin](https://cloud.githubusercontent.com/assets/13851773/21573034/2f1299da-cf06-11e6-8945-9d096ca409da.jpg)
 
 ## User Interface Mocks
 
 Home Page | Contact Us Page
 :-:|:-:
 ![home page](https://cloud.githubusercontent.com/assets/13851773/21572951/485b950a-cf05-11e6-93a7-5e79851a8a11.jpg) | ![contact us page](https://cloud.githubusercontent.com/assets/13851773/21572953/4a494182-cf05-11e6-84ea-75c8900726ee.jpg)
+
+## Database Schema
+
+ Schema can be found at E-voting-portal/migrations/schema.sql 
 
 Login Page | Sign up Page
 :-:|:-:
@@ -64,4 +68,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
