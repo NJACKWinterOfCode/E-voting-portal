@@ -94,7 +94,6 @@ THE SOFTWARE
         <br><input type="text" placeholder="First Name *" autofocus required tabindex="1"  maxlength="30"value="<?php echo htmlentities($firstname); ?>" name="firstname">
         <br><input type="text" placeholder="Last Name *" required tabindex="2" maxlength="30" value="<?php echo htmlentities($lastname); ?>"name="lastname">
         <br><select name="degree"  maxlength="2" required tabindex="3">
-            <option></option>
             <option value="BT"<?php
             if ((isset($degree)) && ($degree === 'BT')) {
                 echo "selected";
