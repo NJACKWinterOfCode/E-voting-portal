@@ -127,7 +127,7 @@ THE SOFTWARE
         <label for="female" style="left:38%;">Female</label>
         <br><input type="password" tabindex="8" required  placeholder="Enter Password *"name="pass">
         <br><input type="password" tabindex="9"required  placeholder="Re-Enter Password *"name="pass2">
-        <br><input type="text" tabindex="10" name="ph"placeholder="Mobile Number" maxlength="10"value="<?php echo htmlentities($ph); ?>">
+        <br><input type="text" tabindex="10" name="ph"placeholder="Mobile Number" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10"value="<?php echo htmlentities($ph); ?>">
         <br><input type="submit" tabindex="11" value="Register">
     </form>
 </div>
