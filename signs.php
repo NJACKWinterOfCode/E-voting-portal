@@ -94,7 +94,6 @@ THE SOFTWARE
         <br><input type="text" placeholder="First Name *" autofocus required tabindex="1"  maxlength="30"value="<?php echo htmlentities($firstname); ?>" name="firstname">
         <br><input type="text" placeholder="Last Name *" required tabindex="2" maxlength="30" value="<?php echo htmlentities($lastname); ?>"name="lastname">
         <br><select name="degree"  maxlength="2" required tabindex="3">
-            <option></option>
             <option value="BT"<?php
             if ((isset($degree)) && ($degree === 'BT')) {
                 echo "selected";
@@ -127,7 +126,7 @@ THE SOFTWARE
         <label for="female" style="left:38%;">Female</label>
         <br><input type="password" tabindex="8" required  placeholder="Enter Password *"name="pass">
         <br><input type="password" tabindex="9"required  placeholder="Re-Enter Password *"name="pass2">
-        <br><input type="text" tabindex="10" name="ph"placeholder="Mobile Number" maxlength="10"value="<?php echo htmlentities($ph); ?>">
+        <br><input type="text" tabindex="10" name="ph"placeholder="Mobile Number" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10"value="<?php echo htmlentities($ph); ?>">
         <br><input type="submit" tabindex="11" value="Register">
     </form>
 </div>
